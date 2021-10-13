@@ -110,7 +110,7 @@ public class Unit1 {
         int a = scan.nextInt();
         System.out.print("Enter b: ");
         int b = scan.nextInt();
-        if( a == b){
+        if(a == b){
             System.out.println("a equals b");
         }
         else {
