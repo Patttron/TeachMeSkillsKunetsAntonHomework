@@ -12,6 +12,7 @@ public class Unit2 {
 
     private static void task() {
         String str = "веревка достаточной длины,чтобы выстрелить себе в ногу";
+        System.out.println("Строка: " + str);
         char[] array = str.toCharArray();
         int z = 0;
         char[] arr = new char[array.length];
@@ -31,17 +32,18 @@ public class Unit2 {
                 }
             }
         }
-        System.out.println(array[z]);
+        System.out.println("Первая повторяющаяся буква в строке: " + array[z]);
         System.out.println("-------------------------");
     }
 
     private static void alternativeTask() {
-        String str = "веревка достаточной длины,чтобы выстрелить себе в ногу";
+        String str = "ололо веревка достаточной длины,чтобы выстрелить себе в ногу";
+        System.out.println("Строка: " + str);
         char[] array = str.toCharArray();
         HashSet<Character> myString = new HashSet<>();
         for (int i = 0; i < array.length; i++) {
             if (!myString.add(array[i])) {
-                System.out.println(array[i]);
+                System.out.println("Первая повторяющаяся буква в строке: " + array[i]);
                 break;
             }
         }
