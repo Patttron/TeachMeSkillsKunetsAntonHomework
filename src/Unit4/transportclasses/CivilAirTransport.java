@@ -1,6 +1,6 @@
-package transportclasses;
+package Unit4.transportclasses;
 
-import abstractclasses.AirTransport;
+import Unit4.abstractclasses.AirTransport;
 
 public class CivilAirTransport extends AirTransport {
     int numberOfPassengersSeats;
